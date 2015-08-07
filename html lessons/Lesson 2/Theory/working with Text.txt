@@ -1,0 +1,59 @@
+In this Lesson we focus on how to add markup to the text that
+appears on your pages. we learn about:
+
+
+Structural markup: the elements that you can use to
+describe both headings and paragraphs
+
+for Example:
+
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+
+<p>
+
+<b>
+
+<i>
+
+<sup>
+
+<sub>
+
+<br>
+
+<hr>
+
+
+Semantic markup: which provides extra information; such
+as where emphasis is placed in a sentence, that something
+you have written is a quotation (and who said it), the
+meaning of acronyms, and so on
+
+for example:
+
+<strong>
+
+<em>
+
+<blockquote>
+
+<q>
+
+<abbr>
+
+<cite>
+
+<dfn>
+
+<address>
+
+<ins>
+
+<del>
+
+<s>

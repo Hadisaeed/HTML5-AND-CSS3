@@ -1,0 +1,72 @@
+In Lesson 2a
+we use 7 tags
+
+1.<p>
+
+To create a paragraph, surround
+the words that make up the
+paragraph with an opening <p>
+tag and closing </p> tag.
+
+2.<b>
+
+By enclosing words in the tags
+<b> and </b> we can make
+characters appear bold.
+The <b> element also represents
+a section of text that would be
+presented in a visually different
+way (for example key words in a
+paragraph) although the use of
+the <b> element does not imply
+any additional meaning.
+
+3.<i>
+By enclosing words in the tags
+<i> and </i> we can make
+characters appear italic.
+The <i> element also represents
+a section of text that would be
+said in a different way from
+surrounding content — such as
+technical terms, names of ships,
+foreign words, thoughts, or other
+terms that would usually be
+italicized.
+
+4.<sup>
+
+The <sup> element is used
+to contain characters that
+should be superscript such
+as the suffixes of dates or
+mathematical concepts like
+raising a number to a power such
+as 2^2.
+
+5.<sub>
+
+The <sub> element is used to
+contain characters that should
+be subscript. It is commonly
+used with foot notes or chemical
+formulas such as H20.
+
+6.<br>
+
+As you have already seen, the
+browser will automatically show
+each new paragraph or heading
+on a new line. But if you wanted
+to add a line break inside the
+middle of a paragraph you can
+use the line break tag <br>.
+
+7.<hr>
+
+To create a break between
+themes — such as a change of
+topic in a book or a new scene
+in a play — you can add a
+horizontal rule between sections
+using the <hr> tag.
