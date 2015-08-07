@@ -1,0 +1,41 @@
+
+Why this Series?
+
+Html5 and css3 is used to build web and (soon) windows
+user interfaces... increasingly important!
+
+Goals for this Series...
+
+1. Build an example of a real HTML5 and CSS3 web pages.
+2. Learn the semantics behind many HTML5 tags
+3. Learn the geeky details.
+4. Separation of Concerns between content and presentation.
+5. CSS selectors, Properties, Syntax, etc.
+
+My Approach or Goals
+
+	Focus on structure, semantics,technical details
+of CSS etc.Not How to Make "Pretty web Pages".
+
+Developer's perspective (as Opposed to a Graphic designer's
+perspective).
+
+Not a reference Document,many of these exit already on 
+the web.
+
+
+Which Tools Will We Use?
+
+you can use any tool but my aim is to make this series
+accessible to as many people as possible.. therefore...
+
+1. Windows notepad
+
+2. internet Explorer 9.0(or greater) .
+
+To Make the most of it from this please try to become active
+learner type the examples.
+Be focused.
+
+Thank You.....
+ 
