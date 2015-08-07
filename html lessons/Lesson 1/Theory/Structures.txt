@@ -1,0 +1,53 @@
+********************	STRUCTURE	**************************
+In order to learn how to write web-pages it is very important
+to understand how to structure your document.so in this  lesson we discuss
+the basic structure of a HTML Document.
+
+	HTML stands for "Hyper Text Mark up Language".
+
+	HTML pages are text documents.
+
+
+	HTML code is made up of characters that live inside angled
+	bracket, these are called HTML Elements.
+
+	Elements are Usually made up Of two tags:	
+	An Opening Tag.
+	A closing Tag.
+
+	Each HTML elements tells the browser somthing about the
+	information that sits between its Opening and closing tags.
+
+	HTML uses tags to give the information they surrond special
+	meaning.
+
+	Tags Usually come in pairs.The opening tag denotes the start
+	of a piece of content.The closing tag denotes the end.
+
+	Oening tags can carry attributes which tell us more about the c
+	content of that element.
+
+	Attributes provides additional information about the contents
+	of an elements.They appear on the opening  tag of the element 
+	are made up of two part
+	1.Name
+	2.value
+	Separted by an equal sign.
+	
+	The attribute name indicates what type of extra information
+	you are supplying about the element's content.It should be written
+	in lower case.
+
+	The value is the information or setting for the attribute. It
+	should be placed in double quotes. Different attributes can
+	have different values.
+
+	for example:
+
+	<p lang="en-us">Paragraph in English</p>
+
+
+	Here an attribute called lang is used to indicate the language
+	used in this element. The value of this attribute on this page
+	specifies it is in US English.
+	
