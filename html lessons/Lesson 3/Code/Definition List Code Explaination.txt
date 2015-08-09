@@ -1,0 +1,26 @@
+		Definition List Code Explaination
+
+<dl>
+
+The definition list is created with
+the <dl> element and usually
+consists of a series of terms and
+their definitions.
+Inside the <dl> element you will
+usually see pairs of <dt> and
+<dd> elements.
+
+<dt>
+This is used to contain the term
+being defined (the definition
+term).
+
+<dd>
+This is used to contain the
+definition.
+
+Sometimes you might see a list
+where there are two terms used
+for the same definition or two
+different definitions for the same
+term.

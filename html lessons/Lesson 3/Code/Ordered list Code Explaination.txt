@@ -1,0 +1,19 @@
+
+
+	Ordered List Explaination
+
+
+<ol>
+
+
+The ordered list is created with
+the <ol> element.
+
+Inside the <ol> tag you will see <li> tag.
+
+<li>
+
+Each item in the list is placed
+between an opening <li> tag
+and a closing </li> tag. (The li
+stands for list item.)

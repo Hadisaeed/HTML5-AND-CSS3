@@ -1,0 +1,18 @@
+
+
+	Unordered List Code Explaination
+
+
+<ul>
+
+The unordered list is created
+with the <ul> element.
+
+inside the <ul> tag you see the <li> tag.
+
+<li>
+
+Each item in the list is placed
+between an opening <li> tag
+and a closing </li> tag. (The li
+stands for list item.)
