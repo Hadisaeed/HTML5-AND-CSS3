@@ -1,0 +1,67 @@
+
+This lesson is all About Links
+
+Links are the defining feature of the web
+because they allow you to move from
+one web page to another — enabling the
+very idea of browsing or surfing.
+
+You will commonly come across the following types of links:
+
+1.Links from one website to another
+2.Links from one page to another on the same website
+3.Links from one part of a web page to another part of the
+same page
+4.Links that open in a new browser window
+5.Links that start up your email program and address a new
+email to someone
+
+Links are created using the <a> element. Users can click on anything
+between the opening <a> tag and the closing </a> tag. You specify
+which page you want to link to using the href attribute.
+
+The text between the opening
+<a> tag and closing </a> tag
+is known as link text.
+
+
+Absolute URL:
+
+When you link to a different
+website, the value of the href
+attribute will be the full web
+address for the site, which is
+known as an absolute URL.
+
+
+Relative URL:
+
+When you are linking to other
+pages within the same site,
+you do not need to specify the
+domain name in the URL. You
+can use a shorthand known as a
+relative URL.
+
+
+
+Relative paths
+
+a.gif -> same directory
+../a.gif -> parent directory
+
+images/a.gif ->sub-directory called images
+
+../images/a.gif -> parent directory's
+
+images floder
+
+../../images/a.gif -> parent's parent 
+directory's images floder
+
+why relative paths?
+
+ever need to move the directory structure?
+
+ever need to migrate from local development to a web 
+server
