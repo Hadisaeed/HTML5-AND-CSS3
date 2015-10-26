@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+
+        p{
+            font-family: tahoma;
+            font-size: 1.2em;
+            letter-spacing: 0.1em;
+            line-height: 110%;
+            word-spacing: 0.2em;
+        }
+
+        /*Pseudo Elements Css start here*/
+
+        #pid:first-letter{
+            font-family: tahoma;
+            font-size: 200%;
+        }
+        #pid:first-line{
+            font-family: tahoma;
+            font-weight: bold;
+            color: red;
+        }
+
+        /*Pseudo Classes Css start here*/
+
+        a:visited{
+
+            color: orangered;
+            font-size: 1.3em;
+            text-decoration: underline;
+        }
+        a:link{
+
+            color: darkblue;
+            font-size: 1.3em;
+            text-decoration: underline;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<h1>CSS Introduces both pseudo element and pseudo classs.</h1>
+<h4>Pseudo Element</h4>
+<p>
+    A pseudo Element acts like an extra element is in the code.For example:
+    <br>:first-letter<br>
+    :first-line<br>
+    these are known as Pseudo Elements
+</p>
+
+<h3>Practice Example</h3>
+
+<p id="pid">The briard, which is believed to have originated in France, has been bred for
+    centuries to herd and to protect sheep. The breed was used by the French Army as
+    sentries, messengers and to search for wounded soldiers because of its fine sense
+    of hearing. Briards were used in the First World War almost to the point of
+    extinction. Currently the population of briards is slowly recovering.
+    Charlemagne, Napoleon, Thomas Jefferson and Lafayette all owned briards.</p>
+
+
+<h4>Pseudo Classes</h4>
+<p>
+    A pseudo Classes that allow you to set different styles for links that have aur have not yet been visited.For example:
+    <br>:link<br>
+    :visited<br>
+    these are known as Pseudo Class.
+</p>
+<h3>Practice Example</h3>
+
+<ul>
+    <li><a href="http://www.google.com" target="_blank">Link 1</a></li>
+    <li><a href="#">Link 2</a></li>
+    <li><a href="#">Link 3</a></li>
+    <li><a href="#">Link 4</a></li>
+
+</ul>
+
+
+</body>
+</html>

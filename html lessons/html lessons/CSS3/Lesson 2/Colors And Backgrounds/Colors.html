@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Colors Examples</title>
+</head>
+<body>
+<h1>Colors</h1>
+<p>Color not only brings your site to life, but also helps
+    convey the mood and evokes reactions.There are three ways to specify colors in CSS:
+    RGB values, hex codes, and color names.</p>
+<h2>1.Defining Colors In CSS</h2>
+<p style="color: blue;">color: blue;</p>
+<p style="color: #0000ff;">color: #0000ff;</p>
+<p style="color: rgb(0,0,255);">color: rgb(0,0,255);</p>
+<h2>2.Background-color</h2>
+<div style="background-color: #999999; width: 20%; height: 30px; color:#ffffff; padding: 0.3% 0% 1% 1%;">
+
+    <p>background-color:#999999;</p>
+
+</div>
+<h2>3.Opacity And RGBA</h2>
+<h3>Without opacity</h3>
+<div style="background-color: deeppink; height: 60px; padding-top: 1%">
+    <p>CSS3 introduces the opacity
+        property which allows you to
+        specify the opacity of an element
+        and any of its child elements.
+        The value is a number between
+        0.0 and 1.0</p>
+</div>
+<h3>With opacity of 0.5</h3>
+<div style="background-color: deeppink; opacity:0.5; height: 60px; padding-top: 1%">
+    <p>CSS3 introduces the opacity
+        property which allows you to
+        specify the opacity of an element
+        and any of its child elements.
+        The value is a number between
+        0.0 and 1.0</p>
+</div>
+<h2>4.Contrast</h2>
+<p>When picking foreground and background
+    colors, it is important to ensure that there is
+    enough contrast for the text to be legible.See the Following Example.
+</p>
+<div style="width: 10%;background-color: lightgray; height: 60px; text-align: center; color: #ffffff; padding-top: 0.2%; display: inline; float: left">
+    <p>Low <br>Contrast</p>
+    <div>
+        <p style="color: black;">Text is harder to read when
+            there is low contrast between
+            background and foreground
+            colors.</p>
+    </div>
+</div>
+<div style="width: 10%;background-color: black; height: 60px; text-align: center; color: #ffffff; padding-top: 0.2%; display: inline; float: left; margin-left: 1%;">
+    <p>High <br>Contrast</p>
+    <div>
+        <p style="color: black;">Text is easier to read when
+            there is higher contrast between
+            background and foreground
+            colors.</p>
+    </div>
+
+</div>
+
+<div style="width: 10%;background-color: dimgrey; height: 60px; text-align: center; color: #ffffff; padding-top: 0.2%; display: inline; float: left; margin-left: 1%">
+    <p>Medium <br>Contrast</p>
+
+    <div>
+        <p style="color: black;">For long spans of text, reducing
+            the contrast a little bit improves
+            readability.</p>
+    </div>
+
+</div>
+
+</body>
+</html>

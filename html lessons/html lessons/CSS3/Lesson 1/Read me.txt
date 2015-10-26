@@ -1,0 +1,58 @@
+In this Lesson we discuss on the following topic:
+
+1. What Css does?
+2. How Css works?
+3. Rules,properties and values
+
+
+*	"Css stand for cascading style sheet"
+
+*	Css allows you to create rules that specify
+	how the content of an element should appear.
+
+*	The key to understanding how Css works is to
+	imagine that there is an invisible box around
+	every HTML element.
+
+*	A css rule contains two parts
+	1. A selector.
+	2. A declaration.
+
+*	Selector indicate which element the rule applies to.
+
+*	Declaration indicates how the elements reffered to
+	in the selector should be styled.
+
+*	Css declaration sit inside curly brackets and each made 
+	up of two parts:
+	1. A Propery
+	2. A value
+	Seperated by a colon.You can specify several properties
+	in one declaration each seperated by a semi-colon.
+
+*	The <link> element can be used in an Html document to
+	tell the browser where to find the Css file used to 
+	style the page.It should use three attributes.
+
+	1. href
+		This Specifies the path to Css file.
+
+	2. type
+		This attribute specifies the type of document
+		being linked to.The value should be text/css.
+	3. rel
+		This specifies the relationship between the Html
+		page and file it is linked to.The value Should
+		be Stylesheet when linking to a css file.
+
+*	You can also include Css Rules Within an HTML Page
+	by placing them inside a <style> element.Which is Usually
+	sits inside the <head> element of the page.
+
+*	There are many different types of Css selector that
+	allow you to target rules to specifies elements in an
+	HTML document.
+
+*	Css selectors are Case Sensitive so they must match
+	element names and attributes values exactly.
+ 

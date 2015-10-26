@@ -1,0 +1,132 @@
+
+
+In this lesson we will Look at the following:
+	
+	* Different Fonts Typefaces.
+	* Different Fonts Font sizes.
+	* Different Fonts Font styles.
+	* Text transformation.
+	* Letter and word spacing.
+	* Text align.
+	* Text-decoration.
+	* Font weight
+	* other fonts properties.
+
+
+* Typeface Terminology
+
+	* Serif Fonts
+
+		Serif fonts have extra details on the ends of
+		the main strokes of letters.These details are
+		known as serif.In print serif fonts were used
+		for long passages of text because they were 
+		considered easier to read.
+
+
+
+	Examples:
+
+		Georgia
+		Times
+		Times New Roman
+
+	* Sans Serif
+
+		 Sans serif fonts have straight ends to letter
+		 and therefore have much cleaner design.Screen
+		 have a lower resolution than print.so if the 
+		 text is small sans serif fonts can be clearer
+		 to read.
+	Examples:
+
+		Arial
+		verdana
+		helvetica
+
+	* MonoSpace
+
+		 Every letter in a monospace font is the same
+		 width.Monospace fonts are commonly used for
+		 code because they align nicely making the 
+		 text easier to follow.
+
+	Examples:
+		Courier
+		courier New
+
+	* Cursive
+
+		 Cursive fonts either have joining stroke or
+		 other cursive characterstics such as 
+		 handwriting style.
+
+	Examples:
+		comic sans Ms
+		Monotype corsive
+
+	* Fantasy
+
+		 Fantasy fonts are usually decorative fonts and
+		 are often used for titles.They are not Designed
+		 for Long bodies of text.
+
+	Examples:
+		Impact
+
+
+	* The Font-family property allows you to specify the 
+	  typeface that should be used for any text inside the
+	  the element(s) to which Css rule applies.
+
+	* The font-size property enables you to specify a size
+	  for the font.There are several ways to specify the
+	  size  of a font.The most common are:
+
+	  1.Pixels.
+	  2.Percentage
+	  3.em
+
+	* The default size of text in browsers is 16px. so
+	  a size of 75% would be the equivalent of 12px and 
+	  200% would be 32px.
+
+	* The font-weight property allows you to create bold
+	  text.There are two values that this property
+	  commonly takes.
+		* bold
+		* normal
+		
+
+	* If you want to create italic text you can use the 
+	  font-style property. There are three values this 
+	  property can take:
+
+		* Normal 
+		* Italic
+		* oblique 
+
+	* The text-transform property is used to change the 
+	  case of text giving it one of the following values:
+
+		* Uppercase
+		* Lowercase
+		* Capitalize
+
+	* The text-decoration property allows you to specify 
+	  the following values:
+
+		* None
+		* Underline
+		* Overline
+		* Line-through
+		* Blink 
+
+	* Leading is the vertical space between lines of
+	  text.The Line-height property sets the Height
+	  of an entrie line of text.
+
+	* Kerning is the space between each letter.
+
+		* CSS has word-spacing propery
+		* CSS has Letter-spacing properties.

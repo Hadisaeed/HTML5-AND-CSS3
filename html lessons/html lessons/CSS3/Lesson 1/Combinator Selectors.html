@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Combinator Selectors.</title>
+    <style>
+
+        /* Descendant Combinator Example */
+
+        *{
+            color: cornflowerblue;
+        }
+
+        div li{
+
+            color: midnightblue;
+            font-family: helvetica;
+            font-size: 1.2em;
+        }
+
+
+        /*Child Combinator*/
+
+        div > article {
+
+            color: cyan;
+            font-family: comic sans ms;
+            font-size: 1.2em;
+            letter-spacing: 1.2em;
+        }
+
+
+        /*Adjacent Sbiling Combinator*/
+
+
+        h3 + p {
+            color: orangered;
+            font-family: "Comic Sans MS", cursive;
+            text-decoration: underline;
+            word-spacing: 0.2em;
+            line-height: 1em;
+            letter-spacing: 0.2em;
+        }
+
+        /*  General Sibling Combinator  */
+        h4~p{
+
+            color: red;
+            font-family:fantasy;
+            font-style: italic;
+        }
+
+    </style>
+
+</head>
+<body>
+<h1 style="color: indigo;">Combinator Selectors</h1>
+<p>The are four Combinator select which are as follows:</p>
+<ol>
+    <li>Descendant combinator</li>
+    <li>Child combinator</li>
+    <li>Adjacent sibling combinator</li>
+    <li>General sibling combinator</li>
+</ol>
+
+<h2 style="color: mediumvioletred;">Example One</h2>
+<h3 style="color: mediumvioletred;">Descendant Combinator </h3>
+<div>
+    <ul>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ul>
+</div>
+<h2 style="color: orange">Example Two</h2>
+<h3 style="color: orange;">Child Combinator </h3>
+
+<div>
+    <p>Paragraph content ...</p>
+    <article>
+        <p>Paragraph content ...</p>
+    </article>
+</div>
+
+<h2 style="color: mediumvioletred;">Example Three</h2>
+<h3 style="color: mediumvioletred;">Adjacent Sibling Combinator </h3>
+
+<h3>Some Stuff</h3>
+<p>Stuff inside my paragraph...</p>
+<p>Stuff inside my paragraph...</p>
+<p>Stuff inside my paragraph...</p>
+<h3>More Stuff</h3>
+<p>Stuff inside my paragraph...</p>
+
+
+
+
+
+
+<h2 style="color: orange">Example Four</h2>
+<h3 style="color: orange;">General Sibling Combinator </h3>
+
+<h2>Some Stuff</h2>
+<p>Stuff inside my paragraph...</p>
+<p>Stuff inside my paragraph...</p>
+<h4>More Stuff</h4>
+<p>Stuff inside my paragraph...</p>
+<p>Stuff inside my paragraph...</p>
+<div>Stuff inside my div...</div>
+<p>Stuff inside my paragraph...</p>
+
+</body>
+</html>

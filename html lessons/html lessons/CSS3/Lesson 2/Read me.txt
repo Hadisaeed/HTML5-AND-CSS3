@@ -1,0 +1,82 @@
+
+In this lesson we will Look at :
+
+* How to specify colors.
+
+* Color terminology.
+
+* Contrast and ensuring that your text is readable.
+
+* Background colors for behind either your entire page
+  or parts of a page.
+
+
+*	You can specify any color in css in one of the following
+	ways:
+
+	* RGB values.
+		 
+		 Values for Red, Green and blue are expressed
+		 as a numbers between 0 and 255.
+		 for example: (100,100,90)
+
+	* Hex Codes.
+		 
+		 Hex values represent values for red,green and blue
+		 in hexadecimal code, preceded by a pound
+		 or hash sign.
+		 for Example: #ee3e80
+	
+	* Color Names.
+		 There are 147 predefined color names that are
+		 recongnized by browsers.
+		 for Example: Dimgary
+
+*	The color property allows you to specify the color
+	of text inside an element.
+
+*	CSS treats each HTML Element as if it appear in a box
+	and the background-color property sets the color of the
+	background for that box.
+
+*	CSS3 Introduces the Opacity property which allows you
+	to specify the opacity of an element and any of its
+	child elements.The value is a number between 0.0 and 1.0.
+
+*	CSS3 introduces an extra value for RGB Colors to indicate
+	opacity and is commonly called RGBA where  A is known 
+	as alpha value.
+
+*	What is Saturation?
+
+	The amount of gray in a color.At maximum saturation
+	there would be no gray in the color.At minimum saturation
+	the color would be mostly gray.
+
+*	What is Brightness?
+
+	The amount of black in a color. At maximum brightness
+	there would be no black in the color. At minimum 
+	brightness the color would be very dark.
+
+*	What is Lightness?
+
+	Lightness is the amount of white and black in a color.
+	It is represented as a percentage. 0% lightness is black
+	100% lightness is white.Lightness sometimes referred 
+	to as luminousity.
+
+*	CSS3 also allows you to specify color as HSL values 
+	with an optional opacity value.It is known as HSLA.
+
+		* Hue expressed as an angle between 0 and 360 
+		  Degrees.
+
+		* Saturation expressed as a percentage.
+		
+		* Lightness Expressed as a percentage.
+
+		* Alpha is expressed as a number b/w 0 to 1.0
+
+
+		
